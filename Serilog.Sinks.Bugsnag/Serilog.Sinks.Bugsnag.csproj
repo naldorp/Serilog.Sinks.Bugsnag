@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RepositoryUrl>https://github.com/naldorp/Serilog.Sinks.Bugsnag</RepositoryUrl>
+    <Authors>Francinaldo Portela</Authors>
+    <Description>Serilog.Sinks.Bugsnag is a library to save logging information from Serilog to Bugsnag</Description>
+    <Company />
+    <PackageTags>c# csharp serilog bugsnag sink logging log</PackageTags>
+    <PackageIcon>Icon.png</PackageIcon>
+    <PackageIconUrl />
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bugsnag" Version="2.2.0" />
+    <PackageReference Include="Serilog" Version="2.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\License.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
