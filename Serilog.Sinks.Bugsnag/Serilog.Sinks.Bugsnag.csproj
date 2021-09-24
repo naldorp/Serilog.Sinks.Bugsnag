@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
     <RepositoryUrl>https://github.com/naldorp/Serilog.Sinks.Bugsnag</RepositoryUrl>
     <Authors>Francinaldo Portela</Authors>
     <Description>Serilog.Sinks.Bugsnag is a library to save logging information from Serilog to Bugsnag</Description>
@@ -16,8 +16,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Bugsnag" Version="2.2.0" />
-    <PackageReference Include="Serilog" Version="2.9.0" />
+    <PackageReference Include="Bugsnag" Version="2.2.3" />
+    <PackageReference Include="Serilog" Version="2.10.0" />
   </ItemGroup>
 
   <ItemGroup>
